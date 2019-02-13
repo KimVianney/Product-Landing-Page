@@ -1,15 +1,67 @@
 body{
     margin: 0;
+    background-color: chartreuse;
+}
+
+#container{
+
+    
+    
+}
+.top-nav{
+    overflow: hidden;
+    background-color:white;
+    font-size: 16px;
+    padding: 16px 18px;
+    
+    
+}
+
+.top-nav a:hover{
+
+    background-color: white;
+    color: green;
+
+
+}
+.top-nav a{
+    float: right;
+}
+.top-nav a:active{
+    background-color: blue;
+    color: white;
 }
 
 #navbar{
     float: right;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 20px;
-    text-decoration: none;
+    background-color: white;
+    float: right;
 
+
+}
+#header-img{
+    width: 20%;
+}
+#form{
+    margin: 100px 500px;
+    background-color: orange;
 }
 #content{
     position: center;
+    display: inline-block;
+    padding: 300px;
 
+
+}
+#form-para{
+    color: black;
+    font-size: 50px;
+    font-family:sans-serif;
+    text-align: center;
+}
+a {
+text-decoration: none;
+color: white;
 }
