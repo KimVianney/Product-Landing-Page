@@ -27,6 +27,11 @@ html, body{
     background-color:whitesmoke;
     font-size: 16px;
     padding: 16px 18px;
+    top: 0;
+    color: black;
+    position: fixed;
+    width: 100%;
+    font: black;
 
     
     
@@ -34,33 +39,39 @@ html, body{
 p{
     font-size: 15px;
 }
-.top-nav a:hover{
+/*.top-nav a:hover{
 
     background-color: black;
     color: green;
 
 
-}
+}*/
 .top-nav a{
     float: right;
+    color: black;
+    justify-content: flex-end;
 }
-.top-nav a:active{
+/*.top-nav a:active{
     background-color: blue;
     color: black;
-}
+}*/
 
 #navbar{
     float: right;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 20px;
+    /*padding: 20px;*/
     background-color: white;
     float: right;
     position: fixed;
-    justify: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    color: black;
+    
 
 }
+nav
 section{
-    margin-left: 25px;
+    
 }
 
 #header-img{
@@ -131,6 +142,16 @@ footer{
     overflow: hidden;
 
 
+}
+  ul{
+      text-decoration: none;
+    
+  }
+  /*a{
+      float: right;
+  }*/
+.real-features{
+    margin-left: 250px;
 }
 .btn {
     padding: 0 20px;
