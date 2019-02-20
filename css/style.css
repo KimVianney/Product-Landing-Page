@@ -9,7 +9,7 @@ html, body{
     background-color: white;
     font-weight: 400;
     margin: 0;
-    background-color: chartreuse;
+    background-color: white;
 
 
 }
@@ -24,7 +24,7 @@ html, body{
 }*/
 .top-nav{
     overflow: hidden;
-    background-color:black;
+    background-color:whitesmoke;
     font-size: 16px;
     padding: 16px 18px;
 
@@ -36,7 +36,7 @@ p{
 }
 .top-nav a:hover{
 
-    background-color: white;
+    background-color: black;
     color: green;
 
 
@@ -46,7 +46,7 @@ p{
 }
 .top-nav a:active{
     background-color: blue;
-    color: white;
+    color: black;
 }
 
 #navbar{
@@ -56,6 +56,7 @@ p{
     background-color: white;
     float: right;
     position: fixed;
+    justify: flex-end;
 
 }
 section{
@@ -67,7 +68,7 @@ section{
 }
 #form{
     margin: 100px 500px;
-    background-color: orange;
+   /* background-color: orange;*/
 }
 #email{
     width: 300px;
@@ -90,11 +91,13 @@ section{
 #submit{
     background-color: orange;
     color: black;
+    position: center;
 
 }
 a {
 text-decoration: none;
 color: white;
+line-height: 1.5 1.5;
 }
 
 #video{
@@ -124,15 +127,27 @@ iframe {
     }
 
 footer{
-    background-color:grey;
+    background-color:black;
     overflow: hidden;
 
 
 }
+.btn {
+    padding: 0 20px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 3px black solid;
+    border-radius: 2px;
+    background: transparent;
+    cursor: pointer;
+  }
 
 #footer-para{
 
     text-align: center;
     font-family: Sans-serif;
     text-decoration: bold;
+    color: white;
 }
